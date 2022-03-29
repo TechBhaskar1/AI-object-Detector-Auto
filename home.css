@@ -1,0 +1,50 @@
+body {
+    background: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#heading {
+    font-size: 53px;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Leckerli One', cursive;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-shadow: 4px 2px 2px 2px red;
+    color: rgb(67, 255, 108);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.box {
+
+    animation: 3s infinite flow;
+    border: 3px black solid;
+    margin-top: 20px;
+    border-radius: 40px;
+    width: 30%;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.box:hover {
+    background-color: rgba(255, 255, 255, 0.424);
+    border: rgb(92, 1, 177) 4px solid;
+}
+
+@keyframes flow {
+    from {
+        background-color: gray;
+    }
+
+    to {
+        background-color: rgb(88, 88, 88);
+    }
+}

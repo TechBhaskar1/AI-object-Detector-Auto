@@ -1,0 +1,28 @@
+body {
+    background: url("background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.heading {
+    width: 100%;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.back {
+    float: left;
+    margin: 10px;
+    font-size: 32px;
+}
+
+.status {
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New',  monospace;
+    text-align: left;
+}
